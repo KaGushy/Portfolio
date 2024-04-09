@@ -1,0 +1,23 @@
+#corps {
+    background: linear-gradient(135deg,  #a7cfdf 0%,#23538a 100%);
+}
+
+.apropos {
+    background-color: #f79621;
+}
+
+
+
+.titre {
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+}
+.lien {
+    color: black;
+}
+#paragraphe {
+    text-align: center;
+    color: white;
+}
