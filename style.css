@@ -1,6 +1,7 @@
 .lien {
     color: #00916E;
 }
+
 #paragraphe {
     display: flex;
     width: 1000px;
@@ -10,44 +11,62 @@
 
 }
 
-.titre{
+.titre {
     text-align: center;
     font-family: "Raleway", sans-serif;
     font-weight: 500;
     color: #00916E;
 }
+
 header {
-    background-color: #240046  ;
+    background-color: #240046;
     color: #00916E;
     border-radius: 10px;
 }
-main{
-    background-color: #282828 ;
+
+main {
+    background-color: #282828;
     border-radius: 10px;
 }
+
 footer {
- background-color:#282828 ;
- border-radius: 10px;
+    background-color: #282828;
+    border-radius: 10px;
+
 }
 
 #robot {
     width: 60%;
 }
+
 #portfolio {
-color: #00916E;
+    color: #00916E;
 }
+
 .blanc {
     color: #EFECF5;
-    
+
 }
+
 div ul li {
     color: #EFECF5;
 }
+
 #icone {
     display: flex;
     justify-content: center;
     font-size: 50px;
 }
+
 div {
     border-radius: 10px;
+}
+
+#Compétences {
+    margin-right: 200px;
+    margin-left: 30px;
+}
+
+#restaurant {
+    border: 1px solid #00916E;
 }
