@@ -2,43 +2,71 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+  <title>Document</title>
 </head>
 
 <body id="corps">
-    <nav class="navigation">
-        <ul>
-          <li><strong>Lallement Mathéo</strong></li>
-        </ul>
-        <ul>
-          <li><a href="#Présentation" class="secondary lien">Présentation</a></li>
-          <li >
-            <details class="dropdown apropos">
-              <summary class="apropos"">
-                profil
-              </summary>
-              <ul dir="rtl">
-                <li><a href="#Parcours">Parcours</a></li>
-                <li><a href="#Expérience">Expérience</a></li>
-                <li><a href="#Compétences">Compétences</a></li>
-                <li><a href="#Formulaire">Formulaire</a></li>
-                <li><a href="#Contact">Contact</a></li>
-              </ul>
-            </details>
-          </li>
-        </ul>
-      </nav>
-      <div id="Présentation">
-        <h2 class="titre">Présentation</h2>
-        <p id="paragraphe">Bonjour je m'appele Mathéo Lallement ,je suis actuellement en formation de développement web
-            je viens d'un bac STI2D(SIN)
-        </p>
-      </div>
+  <header>
+    <nav>
+      <ul>
+        <li><strong>PORTFOLIO</strong></li>
+      </ul>
+      <ul>
+        <li><a href="#Présentation" class="contrast">Présentation</a></li>
+        <li><a href="#Parcours" class="contrast">Parcours</a></li>
+        <li><a href="#Experience" class="contrast">Experience</a></li>
+        <li><a href="#Compétences" class="contrast">Compétences</a></li>
+        <li><a href="#Contact" class="contrast">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div id="Présentation">
+      <h1 class="titre">Mathéo Lallement</h1>
+      <h2 class="titre">Présentation</h2>
+      <p id="paragraphe">Bonjour je m'appele Mathéo Lallement ,j'ai 18ans ,je suis actuellement en formation de développement web
+        je viens d'un bac STI2D(SIN),fan de technologie depuis longtemps .
+        <img id="robot" src="robottech.jpg" alt="">
+      </p>
+    </div>
+    <div id="Parcours">
+      <h2 class="titre">Parcours</h2>
+      <ul>
+        <li>Lycée Robert Doisneau </li>
+        <li> College Aimé Cesaire</li>
+      </ul>
+    </div>
+    <div id="Expérience">
+      <h2 class="titre">Expérience</h2>
+      <ul>
+        <li>Alternance chez Xefi</li>
+      </ul>
+    </div>
+    <div id="Compétences">
+      <h2 class="titre">Compétences</h2>
+      <p> Francais</p>
+      <progress value="90" max="100" > </progress >
+      <p>Anglais</p>
+      <progress value="75" max="100" > </progress >
+      <p>Espagnol</p>
+      <progress value="55" max="100" > </progress >
+        <p>HTML</p>
+        <progress value="55" max="100" > </progress >
+          <p>CSS</p>
+          <progress value="50" max="100" > </progress >
+    </div>
+  </main>
+  <footer>
 
+
+    <div id="Contact">
+      <h2 class="titre">Contact</h2>
+    </div>
+  </footer>
 </body>
 
 </html>
