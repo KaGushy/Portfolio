@@ -10,61 +10,84 @@
 </head>
 
 <body id="corps">
+  <script src="https://kit.fontawesome.com/cb33673e56.js" crossorigin="anonymous"></script>
   <header>
     <nav>
       <ul>
-        <li><strong>PORTFOLIO</strong></li>
+        <li id="portfolio"><strong>PORTFOLIO</strong></li>
       </ul>
       <ul>
-        <li><a href="#Présentation" class="contrast">Présentation</a></li>
-        <li><a href="#Parcours" class="contrast">Parcours</a></li>
-        <li><a href="#Experience" class="contrast">Experience</a></li>
-        <li><a href="#Compétences" class="contrast">Compétences</a></li>
-        <li><a href="#Contact" class="contrast">Contact</a></li>
+        <li><a href="#Présentation" class="contrast lien">Présentation</a></li>
+        <li><a href="#Parcours" class="contrast lien">Parcours</a></li>
+        <li><a href="#Expérience" class="contrast lien">Experience</a></li>
+        <li><a href="#Projet" class="contrast lien">Projet</a></li>
+        <li><a href="#Compétences" class="contrast lien">Compétences</a></li>
+        <li><a href="#Contact" class="contrast lien">Contact</a></li>
       </ul>
     </nav>
+    <h1 class="titre">Mathéo Lallement</h1>
   </header>
   <main>
     <div id="Présentation">
-      <h1 class="titre">Mathéo Lallement</h1>
+
       <h2 class="titre">Présentation</h2>
-      <p id="paragraphe">Bonjour je m'appele Mathéo Lallement ,j'ai 18ans ,je suis actuellement en formation de développement web
-        je viens d'un bac STI2D(SIN),fan de technologie depuis longtemps .
+      <p id="paragraphe" class="blanc">Bonjour , je m'appele Mathéo Lallement , j'ai 18ans , je suis actuellement en
+        formation de développement web
+        je viens d'un bac STI2D(SIN), fan de technologie depuis longtemps .
         <img id="robot" src="robottech.jpg" alt="">
       </p>
     </div>
     <div id="Parcours">
       <h2 class="titre">Parcours</h2>
-      <ul>
-        <li>Lycée Robert Doisneau </li>
-        <li> College Aimé Cesaire</li>
-      </ul>
+      <p id="paragraphe" class="blanc"> Je sort d'un BAC technologique STI2D a l'école Robert DOISNEAU a Vaulx en
+        Velin.J'ai ensuite fait une alternance chez XEFI ou j'ai expérimenter  le domaine de l'informatique.
+        <img id=robot src="fleche.jpg">
+      </p>
     </div>
-    <div id="Expérience">
-      <h2 class="titre">Expérience</h2>
-      <ul>
-        <li>Alternance chez Xefi</li>
-      </ul>
-    </div>
-    <div id="Compétences">
-      <h2 class="titre">Compétences</h2>
-      <p> Francais</p>
-      <progress value="90" max="100" > </progress >
-      <p>Anglais</p>
-      <progress value="75" max="100" > </progress >
-      <p>Espagnol</p>
-      <progress value="55" max="100" > </progress >
-        <p>HTML</p>
-        <progress value="55" max="100" > </progress >
-          <p>CSS</p>
-          <progress value="50" max="100" > </progress >
-    </div>
+    <div>
+      <div id="Expérience">
+        <h2 class="titre">Expérience</h2>
+        <ul>
+          <li class="blanc">Alternance chez Xefi 2023</li>
+        </ul>
+      </div>
+      <div id="Projet">
+        <h2 class="titre">Projet</h2>
+      </div>
+      <div id="Compétences">
+        <h2 class="titre">Compétences</h2>
+        <p class="blanc"> Francais</p>
+        <progress value="90" max="100"> </progress>
+        <p class="blanc">Anglais</p>
+        <progress value="75" max="100"> </progress>
+        <p class="blanc">Espagnol</p>
+        <progress value="55" max="100"> </progress>
+        <p class="blanc">HTML</p>
+        <progress value="15" max="100"> </progress>
+        <p class="blanc">CSS</p>
+        <progress value="15" max="100"> </progress>
+      </div>
   </main>
   <footer>
-
-
     <div id="Contact">
       <h2 class="titre">Contact</h2>
+      <form>
+        <fieldset>
+          <label class="blanc">
+            Prénom
+            <input name="first_name" placeholder="First name" autocomplete="given-name" />
+          </label>
+          <label class="blanc">
+            Email
+            <input type="email" name="email" placeholder="Email" autocomplete="email" />
+          </label>
+        </fieldset>
+        <input type="submit" value="Envoyer" />
+      </form>
+      <div id="icone">
+        <a href="https://fr.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+      </div>
     </div>
   </footer>
 </body>

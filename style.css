@@ -1,24 +1,53 @@
-
-
+.lien {
+    color: #00916E;
+}
 #paragraphe {
     display: flex;
     width: 1000px;
     justify-content: center;
     padding-left: 100px;
+    font-size: 20px;
 
 }
 
 .titre{
     text-align: center;
-    font-family: noto serif ;
-    color: black;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    color: #00916E;
 }
 header {
-    background-color: #240046;
-    color: #EFECF5;
+    background-color: #240046  ;
+    color: #00916E;
+    border-radius: 10px;
 }
-
+main{
+    background-color: #282828 ;
+    border-radius: 10px;
+}
+footer {
+ background-color:#282828 ;
+ border-radius: 10px;
+}
 
 #robot {
     width: 60%;
+}
+#portfolio {
+color: #00916E;
+}
+.blanc {
+    color: #EFECF5;
+    
+}
+div ul li {
+    color: #EFECF5;
+}
+#icone {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+div {
+    border-radius: 10px;
 }
