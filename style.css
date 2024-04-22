@@ -73,3 +73,9 @@ div {
 #Projet {
     margin-left: 100px;
 }
+form {
+   margin-left: 300px;
+   margin-right: 300px;
+    width: 800px;
+    border: #240046 solid 4px;
+}
